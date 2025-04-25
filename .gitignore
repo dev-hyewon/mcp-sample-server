@@ -1,0 +1,28 @@
+#Build output
+build/
+
+#Node.js Dependencies
+node_modules/
+package-lock.json
+
+#Typescript cache
+.cache/
+.eslintcache
+
+# Edior and IDE config
+.vscode/
+
+#OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+#Editor/OS backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*~
