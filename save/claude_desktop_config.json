@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "node",
+      "args": [
+        "C:\\_claude\\mcp-sample\\custom-server\\build\\index.js",
+        "C:\\_claude\\mcp-sample",
+        "C:\\Users\\SUB\\AppData\\Roaming\\Claude"
+      ]
+    }
+  }
+}

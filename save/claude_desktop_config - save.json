@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "google.com": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-maps"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyAmNb9NohBzLZ46cNsqhFQqLb8L-E5DMgs"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ]
+    },
+    "terminal": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@dillip285/mcp-terminal"
+      ],
+      "config": {
+        "allowedCommands": [
+          "npm","npx","node","git","python","pip","pipx","pipenv","poetry",
+          "pytest","tox","flake8","pylint","black","isort","mypy",
+          "coverage","cProfile","pyinstrument","ab","wrk","siege",
+          "locust","k6","hey","pytest-benchmark","curl","http","ls","dir", "mysql"
+        ],
+        "defaultTimeout": 30000
+      }
+    },
+    "googleSearch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "g-search-mcp"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\_claude",
+        "E:\\apps_DESKTOP",
+        "E:\\apps_DEVELOPE"
+      ]
+    },
+    "weather": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\_project\\mcp\\weather-mcp",
+        "run",
+        "main.py"
+      ]
+    }      
+  }
+}
